@@ -1,86 +1,74 @@
 package com.example.repeatreminder
 
 import android.app.AlarmManager
-import android.app.NotificationChannel
-import android.app.NotificationManager
 import android.app.PendingIntent
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import android.media.RingtoneManager
-import android.os.Build
 import android.media.AudioAttributes
+import android.media.RingtoneManager
 import android.net.Uri
+import android.os.Build
+import android.os.VibrationEffect
+import android.os.Vibrator
+import android.os.VibratorManager
 import android.util.Log
-import androidx.core.app.NotificationCompat
 
 class AlarmReceiver : BroadcastReceiver() {
 
     override fun onReceive(context: Context, intent: Intent) {
         val action = intent.action
         
-        if (action == "com.example.repeatreminder.ALARM_TRIGGER") {
-            showNotification(context)
+        if (action == "com.example.repeatreminder.ALARM_TRIGGER" || action == "com.example.repeatreminder.TEST_TRIGGER") {
+            playSoundAndVibrate(context)
             
             // Reschedule next alarm if it's a repeating one
-            val intervalMinutes = intent.getIntExtra("interval", 0)
-            if (intervalMinutes > 0) {
-                scheduleNextAlarm(context, intervalMinutes)
+            if (action == "com.example.repeatreminder.ALARM_TRIGGER") {
+                val intervalMinutes = intent.getIntExtra("interval", 0)
+                if (intervalMinutes > 0) {
+                    scheduleNextAlarm(context, intervalMinutes)
+                }
             }
-        } else if (action == "com.example.repeatreminder.TEST_TRIGGER") {
-            showNotification(context, "Test Notification 🧪", "If you see this, notifications are working!")
         }
     }
 
-    private fun showNotification(context: Context, title: String = "Time's up! ⏰", content: String? = null) {
-        val notificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-        
-        // Use a dynamic channel ID based on the sound URI and vibration setting
-        val soundUri = getSavedRingtoneUri(context)
-        val isVibrationEnabled = getVibrationPreference(context)
-        val soundHash = soundUri?.toString()?.hashCode() ?: "default".hashCode()
-        val channelId = "repeat_reminder_channel_${soundHash}_$isVibrationEnabled"
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val channel = NotificationChannel(
-                channelId,
-                "Repeat Reminder Alerts",
-                NotificationManager.IMPORTANCE_HIGH
-            ).apply {
-                enableVibration(isVibrationEnabled)
-                enableLights(true)
-                
-                // Set sound for channel (required for Android O+)
-                val audioAttributes = AudioAttributes.Builder()
-                    .setUsage(AudioAttributes.USAGE_ALARM)
-                    .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
-                    .build()
-                setSound(soundUri, audioAttributes)
+    private fun playSoundAndVibrate(context: Context) {
+        try {
+            // Play Sound
+            val soundUri = getSavedRingtoneUri(context)
+            if (soundUri != null) {
+                val ringtone = RingtoneManager.getRingtone(context, soundUri)
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    ringtone.audioAttributes = AudioAttributes.Builder()
+                        .setUsage(AudioAttributes.USAGE_ALARM)
+                        .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+                        .build()
+                }
+                ringtone.play()
             }
-            notificationManager.createNotificationChannel(channel)
-        }
 
-        val builder = NotificationCompat.Builder(context, channelId)
-            .setSmallIcon(android.R.drawable.ic_lock_idle_alarm)
-            .setContentTitle(title)
-            .setContentText(content ?: "This is your reminder.")
-            .setPriority(NotificationCompat.PRIORITY_MAX)
-            .setCategory(NotificationCompat.CATEGORY_ALARM)
-            .setAutoCancel(true)
-            .setDefaults(NotificationCompat.DEFAULT_ALL)
-            
-        if (isVibrationEnabled) {
-            builder.setVibrate(longArrayOf(0, 500, 200, 500))
-        } else {
-            builder.setVibrate(null)
-        }
-            
-        // Set sound for pre-O devices
-        if (soundUri != null) {
-            builder.setSound(soundUri)
-        }
+            // Vibrate
+            if (getVibrationPreference(context)) {
+                val vibrator = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                    val vibratorManager = context.getSystemService(Context.VIBRATOR_MANAGER_SERVICE) as VibratorManager
+                    vibratorManager.defaultVibrator
+                } else {
+                    @Suppress("DEPRECATION")
+                    context.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+                }
 
-        notificationManager.notify(System.currentTimeMillis().toInt(), builder.build())
+                if (vibrator.hasVibrator()) {
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                        vibrator.vibrate(VibrationEffect.createWaveform(longArrayOf(0, 500, 200, 500), -1))
+                    } else {
+                        @Suppress("DEPRECATION")
+                        vibrator.vibrate(longArrayOf(0, 500, 200, 500), -1)
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            Log.e("AlarmReceiver", "Error playing sound or vibrating", e)
+        }
     }
 
     private fun scheduleNextAlarm(context: Context, intervalMinutes: Int) {
@@ -106,6 +94,7 @@ class AlarmReceiver : BroadcastReceiver() {
             alarmManager.setExact(AlarmManager.RTC_WAKEUP, nextTriggerTime, pendingIntent)
         }
     }
+
     private fun getSavedRingtoneUri(context: Context): Uri? {
         val prefs = context.getSharedPreferences("repeat_reminder_prefs", Context.MODE_PRIVATE)
         val uriString = prefs.getString("sound_uri", "")
