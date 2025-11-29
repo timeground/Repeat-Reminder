@@ -51,7 +51,9 @@ class MainActivity : AppCompatActivity() {
     private val clockRunnable = object : Runnable {
         override fun run() {
             updateClock()
-            handler.postDelayed(this, 1000)
+            val now = System.currentTimeMillis()
+            val delay = 1000 - (now % 1000)
+            handler.postDelayed(this, delay)
         }
     }
     
