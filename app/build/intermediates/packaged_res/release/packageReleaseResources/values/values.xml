@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF2D3748</color>
+    <color name="blue_preset">#4299E1</color>
+    <color name="gray_bg">#F5F7FA</color>
+    <color name="gray_preset">#EDF2F7</color>
+    <color name="green_start">#48BB78</color>
+    <color name="purple_200">#FFFFFFFF</color>
+    <color name="purple_500">#FFFFFFFF</color>
+    <color name="purple_700">#FFFFFFFF</color>
+    <color name="red_stop">#F56565</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_primary">#2D3748</color>
+    <color name="text_secondary">#718096</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Repeat Reminder</string>
+    <string name="permission_rationale">We need notification permissions to send you reminders.</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="start_reminder">START REMINDER</string>
+    <string name="stop_reminder">STOP REMINDER</string>
+    <string name="test_notification">Test Notification (5s)</string>
+    <style name="Theme.RepeatReminder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">@color/gray_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+    </style>
+</resources>

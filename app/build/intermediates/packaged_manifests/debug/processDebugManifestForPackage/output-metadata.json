@@ -4,15 +4,15 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.repeatreminder",
+  "applicationId": "com.timeground.repeatreminder",
   "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 1,
-      "versionName": "1.0",
+      "versionCode": 18,
+      "versionName": "2.7",
       "outputFile": "AndroidManifest.xml"
     }
   ],

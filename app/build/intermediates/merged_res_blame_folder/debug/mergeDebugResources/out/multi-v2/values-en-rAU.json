@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.repeatreminder.app-mergeDebugResources-29:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.timeground.repeatreminder.app-mergeDebugResources-29:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\437bb384394fcf8f79b94ef02fd01385\\transformed\\appcompat-1.6.1\\res\\values-en-rAU\\values-en-rAU.xml",

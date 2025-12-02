@@ -4,23 +4,34 @@ plugins {
 }
 
 android {
-    namespace = "com.example.repeatreminder"
+    namespace = "com.timeground.repeatreminder"
     compileSdk = 34
     buildToolsVersion = "34.0.0"
 
     defaultConfig {
-        applicationId = "com.example.repeatreminder"
+        applicationId = "com.timeground.repeatreminder"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 18
+        versionName = "2.7"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        create("release") {
+            storeFile = file("release-key.jks")
+            storePassword = "Timeground@634460"
+            keyAlias = "key0"
+            keyPassword = "Timeground@634460"
+        }
     }
 
     buildTypes {
         release {
             isMinifyEnabled = false
+            isShrinkResources = false
+            signingConfig = signingConfigs.getByName("release")
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }

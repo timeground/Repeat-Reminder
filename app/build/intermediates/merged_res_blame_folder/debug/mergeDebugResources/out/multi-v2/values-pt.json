@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.repeatreminder.app-mergeDebugResources-29:/values-pt/values-pt.xml",
+            "outputFile": "com.timeground.repeatreminder.app-mergeDebugResources-29:/values-pt/values-pt.xml",
             "map": [
                 {
                     "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\396e032aae96a19f5d95643c90b995c4\\transformed\\core-1.12.0\\res\\values-pt\\values-pt.xml",
