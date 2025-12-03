@@ -12,6 +12,11 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/gray_bg</item>
         <item name="android:windowLightStatusBar">true</item>
-        <!-- Customize your theme here. -->
+        <item name="android:timePickerDialogTheme">@style/MyTimePickerDialog</item>
+    </style>
+
+    <style name="MyTimePickerDialog" parent="ThemeOverlay.MaterialComponents.TimePicker">
+        <item name="colorPrimary">@color/blue_preset</item>
+        <item name="colorOnPrimary">@color/white</item>
     </style>
 </resources>

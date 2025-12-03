@@ -11,6 +11,6 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/gray_bg</item>
-        <!-- Customize your theme here. -->
+        <item name="android:timePickerDialogTheme">@style/MyTimePickerDialog</item>
     </style>
 </resources>

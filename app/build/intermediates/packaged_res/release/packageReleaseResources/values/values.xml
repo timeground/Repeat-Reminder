@@ -21,6 +21,10 @@
     <string name="start_reminder">START REMINDER</string>
     <string name="stop_reminder">STOP REMINDER</string>
     <string name="test_notification">Test Notification (5s)</string>
+    <style name="MyTimePickerDialog" parent="ThemeOverlay.MaterialComponents.TimePicker">
+        <item name="colorPrimary">@color/blue_preset</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
     <style name="Theme.RepeatReminder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/white</item>
@@ -33,6 +37,6 @@
         
         <item name="android:statusBarColor">@color/gray_bg</item>
         <item name="android:windowLightStatusBar">true</item>
-        
+        <item name="android:timePickerDialogTheme">@style/MyTimePickerDialog</item>
     </style>
 </resources>

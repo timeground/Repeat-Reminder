@@ -11435,7 +11435,10 @@
         
         <item name="android:statusBarColor">@color/gray_bg</item>
         <item name="android:windowLightStatusBar">true</item>
-        
+        <item name="android:timePickerDialogTheme">@style/MyTimePickerDialog</item>
+    </style><style name="MyTimePickerDialog" parent="ThemeOverlay.MaterialComponents.TimePicker">
+        <item name="colorPrimary">@color/blue_preset</item>
+        <item name="colorOnPrimary">@color/white</item>
     </style></file><file name="backup_rules" path="C:\Users\athul\PROJECTS\Repeat Reminder\app\src\main\res\xml\backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="C:\Users\athul\PROJECTS\Repeat Reminder\app\src\main\res\xml\data_extraction_rules.xml" qualifiers="" type="xml"/><file path="C:\Users\athul\PROJECTS\Repeat Reminder\app\src\main\res\values-night\colors.xml" qualifiers="night-v8"><color name="purple_200">#FFBB86FC</color><color name="purple_500">#FF6200EE</color><color name="purple_700">#FF3700B3</color><color name="teal_200">#FF03DAC5</color><color name="teal_700">#FF018786</color><color name="black">#FFFFFFFF</color><color name="white">#FF121212</color><color name="gray_bg">#FF121212</color><color name="text_primary">#FFFFFFFF</color><color name="text_secondary">#A0AEC0</color><color name="green_start">#48BB78</color><color name="red_stop">#F56565</color><color name="blue_preset">#4299E1</color><color name="gray_preset">#2D3748</color><color name="btn_circle_bg">#2D3748</color></file><file path="C:\Users\athul\PROJECTS\Repeat Reminder\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.RepeatReminder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/black</item>
@@ -11447,7 +11450,7 @@
         <item name="colorOnSecondary">@color/black</item>
         
         <item name="android:statusBarColor">@color/gray_bg</item>
-        
+        <item name="android:timePickerDialogTheme">@style/MyTimePickerDialog</item>
     </style></file><file name="ic_moon" path="C:\Users\athul\PROJECTS\Repeat Reminder\app\src\main\res\drawable\ic_moon.xml" qualifiers="" type="drawable"/><file name="ic_sun" path="C:\Users\athul\PROJECTS\Repeat Reminder\app\src\main\res\drawable\ic_sun.xml" qualifiers="" type="drawable"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\athul\PROJECTS\Repeat Reminder\app\src\release\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"><source path="C:\Users\athul\PROJECTS\Repeat Reminder\app\src\release\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\athul\PROJECTS\Repeat Reminder\app\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"><source path="C:\Users\athul\PROJECTS\Repeat Reminder\app\build\generated\res\resValues\release"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>

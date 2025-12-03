@@ -5632,6 +5632,10 @@
     <item name="android:layout_gravity">center</item>
     <item name="android:textAlignment" ns1:ignore="NewApi">center</item>
   </style>
+    <style name="MyTimePickerDialog" parent="ThemeOverlay.MaterialComponents.TimePicker">
+        <item name="colorPrimary">@color/blue_preset</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
     <style name="Platform.AppCompat" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
@@ -6541,7 +6545,7 @@
         
         <item name="android:statusBarColor">@color/gray_bg</item>
         <item name="android:windowLightStatusBar">true</item>
-        
+        <item name="android:timePickerDialogTheme">@style/MyTimePickerDialog</item>
     </style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>

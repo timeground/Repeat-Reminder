@@ -52,6 +52,7 @@ string permission_required
 string start_reminder
 string stop_reminder
 string test_notification
+style MyTimePickerDialog
 style Theme.RepeatReminder
 xml backup_rules
 xml data_extraction_rules
