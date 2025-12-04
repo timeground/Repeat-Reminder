@@ -5,15 +5,15 @@ plugins {
 
 android {
     namespace = "com.timeground.repeatreminder"
-    compileSdk = 34
+    compileSdk = 35
     buildToolsVersion = "34.0.0"
 
     defaultConfig {
         applicationId = "com.timeground.repeatreminder"
         minSdk = 26
-        targetSdk = 34
-        versionCode = 20
-        versionName = "2.9"
+        targetSdk = 35
+        versionCode = 23
+        versionName = "3.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

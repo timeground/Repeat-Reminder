@@ -2199,6 +2199,7 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen corner_radius_action_button
 dimen def_drawer_elevation
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
@@ -2253,6 +2254,7 @@ dimen disabled_alpha_material_light
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen height_action_button
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -2645,6 +2647,9 @@ dimen m3_sys_state_pressed_state_layer_opacity
 dimen m3_timepicker_display_stroke_width
 dimen m3_timepicker_window_elevation
 dimen m3_toolbar_text_size_title
+dimen margin_bottom_interval_layout
+dimen margin_top_interval_layout
+dimen margin_top_start_label
 dimen material_bottom_sheet_max_width
 dimen material_clock_display_height
 dimen material_clock_display_padding
@@ -2894,6 +2899,17 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen padding_main
+dimen size_plus_minus_button
+dimen size_preset_button
+dimen size_theme_toggle
+dimen text_size_action_button
+dimen text_size_clock
+dimen text_size_interval_input
+dimen text_size_label
+dimen text_size_plus_minus
+dimen text_size_preset
+dimen text_size_sound_vibrate
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_radius_action_button">50dp</dimen>
+    <dimen name="height_action_button">100dp</dimen>
+    <dimen name="margin_bottom_interval_layout">60dp</dimen>
+    <dimen name="margin_top_interval_layout">80dp</dimen>
+    <dimen name="margin_top_start_label">120dp</dimen>
+    <dimen name="padding_main">60dp</dimen>
+    <dimen name="size_plus_minus_button">100dp</dimen>
+    <dimen name="size_preset_button">100dp</dimen>
+    <dimen name="size_theme_toggle">64dp</dimen>
+    <dimen name="text_size_action_button">32sp</dimen>
+    <dimen name="text_size_clock">96sp</dimen>
+    <dimen name="text_size_interval_input">100sp</dimen>
+    <dimen name="text_size_label">20sp</dimen>
+    <dimen name="text_size_plus_minus">56sp</dimen>
+    <dimen name="text_size_preset">24sp</dimen>
+    <dimen name="text_size_sound_vibrate">28sp</dimen>
+</resources>
