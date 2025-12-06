@@ -8,8 +8,7 @@
     buildFolder="build"
     bootClassPath="C:\Users\athul\AppData\Local\Android\Sdk\platforms\android-35\android.jar;C:\Users\athul\AppData\Local\Android\Sdk\build-tools\35.0.0\core-lambda-stubs.jar"
     javaSourceLevel="1.8"
-    compileTarget="android-35"
-    neverShrinking="true">
+    compileTarget="android-35">
   <lintOptions
       abortOnError="true"
       absolutePaths="true"

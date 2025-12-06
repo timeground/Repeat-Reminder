@@ -25,7 +25,7 @@
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         
-        <item name="android:statusBarColor">@color/gray_bg</item>
+
         <item name="android:timePickerDialogTheme">@style/MyTimePickerDialog</item>
     </style>
 </resources>

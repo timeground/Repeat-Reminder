@@ -49,7 +49,9 @@ id btnPlus
 id btnResetTime
 id btnThemeToggle
 id etInterval
+id layoutContentContainer
 id layoutInterval
+id mainRoot
 id switchTimeFormat
 id switchVibration
 id tvClock

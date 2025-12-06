@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.timeground.repeatreminder.app-mergeDebugResources-29:/values-ka/values-ka.xml",
+            "outputFile": "com.timeground.repeatreminder.app-mergeDebugResources-33:/values-ka/values-ka.xml",
             "map": [
                 {
                     "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\a4dacf92a02149cd4ec70f44025a588c\\transformed\\material-1.11.0\\res\\values-ka\\values-ka.xml",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\396e032aae96a19f5d95643c90b995c4\\transformed\\core-1.12.0\\res\\values-ka\\values-ka.xml",
+                    "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\542c0b8ba874054b06695b75f3006805\\transformed\\core-1.13.0\\res\\values-ka\\values-ka.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

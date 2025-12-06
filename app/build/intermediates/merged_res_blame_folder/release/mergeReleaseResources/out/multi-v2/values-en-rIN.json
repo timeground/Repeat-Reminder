@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.timeground.repeatreminder.app-mergeReleaseResources-29:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.timeground.repeatreminder.app-mergeReleaseResources-33:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\437bb384394fcf8f79b94ef02fd01385\\transformed\\appcompat-1.6.1\\res\\values-en-rIN\\values-en-rIN.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\396e032aae96a19f5d95643c90b995c4\\transformed\\core-1.12.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\542c0b8ba874054b06695b75f3006805\\transformed\\core-1.13.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

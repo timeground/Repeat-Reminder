@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.timeground.repeatreminder.app-mergeDebugResources-29:/values-ja/values-ja.xml",
+            "outputFile": "com.timeground.repeatreminder.app-mergeDebugResources-33:/values-ja/values-ja.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\542c0b8ba874054b06695b75f3006805\\transformed\\core-1.13.0\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,247,341,437,530,623,724",
+                        "endColumns": "91,99,93,95,92,92,100,100",
+                        "endOffsets": "142,242,336,432,525,618,719,820"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,109",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3252,3344,3444,3538,3634,3727,3820,8495",
+                        "endColumns": "91,99,93,95,92,92,100,100",
+                        "endOffsets": "3339,3439,3533,3629,3722,3815,3916,8591"
+                    }
+                },
                 {
                     "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\a4dacf92a02149cd4ec70f44025a588c\\transformed\\material-1.11.0\\res\\values-ja\\values-ja.xml",
                     "from": {
@@ -37,23 +54,6 @@
                         "startOffsets": "303,400,493,598,680,778,886,964,1039,1130,1223,1318,1412,1512,1605,1700,1794,1885,1976,2054,2156,2254,2349,2452,2548,2644,2792,8416",
                         "endColumns": "96,92,104,81,97,107,77,74,90,92,94,93,99,92,94,93,90,90,77,101,97,94,102,95,95,147,96,78",
                         "endOffsets": "395,488,593,675,773,881,959,1034,1125,1218,1313,1407,1507,1600,1695,1789,1880,1971,2049,2151,2249,2344,2447,2543,2639,2787,2884,8490"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\396e032aae96a19f5d95643c90b995c4\\transformed\\core-1.12.0\\res\\values-ja\\values-ja.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,147,247,341,437,530,623,724",
-                        "endColumns": "91,99,93,95,92,92,100,100",
-                        "endOffsets": "142,242,336,432,525,618,719,820"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,109",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3252,3344,3444,3538,3634,3727,3820,8495",
-                        "endColumns": "91,99,93,95,92,92,100,100",
-                        "endOffsets": "3339,3439,3533,3629,3722,3815,3916,8591"
                     }
                 }
             ]

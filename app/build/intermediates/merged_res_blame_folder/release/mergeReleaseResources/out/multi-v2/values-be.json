@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.timeground.repeatreminder.app-mergeReleaseResources-29:/values-be/values-be.xml",
+            "outputFile": "com.timeground.repeatreminder.app-mergeReleaseResources-33:/values-be/values-be.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\542c0b8ba874054b06695b75f3006805\\transformed\\core-1.13.0\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,456,562,665,786",
+                        "endColumns": "97,101,99,100,105,102,120,100",
+                        "endOffsets": "148,250,350,451,557,660,781,882"
+                    },
+                    "to": {
+                        "startLines": "40,41,42,43,44,45,46,111",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3587,3685,3787,3887,3988,4094,4197,9578",
+                        "endColumns": "97,101,99,100,105,102,120,100",
+                        "endOffsets": "3680,3782,3882,3983,4089,4192,4313,9674"
+                    }
+                },
                 {
                     "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\a4dacf92a02149cd4ec70f44025a588c\\transformed\\material-1.11.0\\res\\values-be\\values-be.xml",
                     "from": {
@@ -37,23 +54,6 @@
                         "startOffsets": "432,552,655,771,857,962,1081,1161,1238,1330,1424,1519,1613,1708,1802,1898,1993,2085,2177,2258,2364,2469,2567,2675,2781,2889,3062,9496",
                         "endColumns": "119,102,115,85,104,118,79,76,91,93,94,93,94,93,95,94,91,91,80,105,104,97,107,105,107,172,99,81",
                         "endOffsets": "547,650,766,852,957,1076,1156,1233,1325,1419,1514,1608,1703,1797,1893,1988,2080,2172,2253,2359,2464,2562,2670,2776,2884,3057,3157,9573"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\396e032aae96a19f5d95643c90b995c4\\transformed\\core-1.12.0\\res\\values-be\\values-be.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,355,456,562,665,786",
-                        "endColumns": "97,101,99,100,105,102,120,100",
-                        "endOffsets": "148,250,350,451,557,660,781,882"
-                    },
-                    "to": {
-                        "startLines": "40,41,42,43,44,45,46,111",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3587,3685,3787,3887,3988,4094,4197,9578",
-                        "endColumns": "97,101,99,100,105,102,120,100",
-                        "endOffsets": "3680,3782,3882,3983,4089,4192,4313,9674"
                     }
                 }
             ]

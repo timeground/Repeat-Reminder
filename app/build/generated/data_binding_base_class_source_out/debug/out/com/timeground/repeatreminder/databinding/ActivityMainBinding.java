@@ -59,7 +59,13 @@ public final class ActivityMainBinding implements ViewBinding {
   public final EditText etInterval;
 
   @NonNull
+  public final LinearLayout layoutContentContainer;
+
+  @NonNull
   public final LinearLayout layoutInterval;
+
+  @NonNull
+  public final ConstraintLayout mainRoot;
 
   @NonNull
   public final SwitchCompat switchTimeFormat;
@@ -87,7 +93,8 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull AppCompatButton btn5m, @NonNull AppCompatButton btn60m, @NonNull Button btnAction,
       @NonNull AppCompatButton btnMinus, @NonNull AppCompatButton btnPlus,
       @NonNull TextView btnResetTime, @NonNull ImageButton btnThemeToggle,
-      @NonNull EditText etInterval, @NonNull LinearLayout layoutInterval,
+      @NonNull EditText etInterval, @NonNull LinearLayout layoutContentContainer,
+      @NonNull LinearLayout layoutInterval, @NonNull ConstraintLayout mainRoot,
       @NonNull SwitchCompat switchTimeFormat, @NonNull SwitchCompat switchVibration,
       @NonNull TextView tvClock, @NonNull TextView tvCountdown, @NonNull TextView tvNextAlarm,
       @NonNull TextView tvSound, @NonNull TextView tvStartLabel) {
@@ -103,7 +110,9 @@ public final class ActivityMainBinding implements ViewBinding {
     this.btnResetTime = btnResetTime;
     this.btnThemeToggle = btnThemeToggle;
     this.etInterval = etInterval;
+    this.layoutContentContainer = layoutContentContainer;
     this.layoutInterval = layoutInterval;
+    this.mainRoot = mainRoot;
     this.switchTimeFormat = switchTimeFormat;
     this.switchVibration = switchVibration;
     this.tvClock = tvClock;
@@ -206,11 +215,19 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.layoutContentContainer;
+      LinearLayout layoutContentContainer = ViewBindings.findChildViewById(rootView, id);
+      if (layoutContentContainer == null) {
+        break missingId;
+      }
+
       id = R.id.layoutInterval;
       LinearLayout layoutInterval = ViewBindings.findChildViewById(rootView, id);
       if (layoutInterval == null) {
         break missingId;
       }
+
+      ConstraintLayout mainRoot = (ConstraintLayout) rootView;
 
       id = R.id.switchTimeFormat;
       SwitchCompat switchTimeFormat = ViewBindings.findChildViewById(rootView, id);
@@ -256,8 +273,8 @@ public final class ActivityMainBinding implements ViewBinding {
 
       return new ActivityMainBinding((ConstraintLayout) rootView, btn10m, btn15m, btn30m, btn5m,
           btn60m, btnAction, btnMinus, btnPlus, btnResetTime, btnThemeToggle, etInterval,
-          layoutInterval, switchTimeFormat, switchVibration, tvClock, tvCountdown, tvNextAlarm,
-          tvSound, tvStartLabel);
+          layoutContentContainer, layoutInterval, mainRoot, switchTimeFormat, switchVibration,
+          tvClock, tvCountdown, tvNextAlarm, tvSound, tvStartLabel);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

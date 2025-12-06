@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.timeground.repeatreminder.app-mergeDebugResources-29:/values-v23/values-v23.xml",
+            "outputFile": "com.timeground.repeatreminder.app-mergeDebugResources-33:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\athul\\.gradle\\caches\\8.13\\transforms\\c23033dd3766c03e4815dbf95e994323\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

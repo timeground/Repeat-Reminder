@@ -1,10 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\athul\\.gradle\\daemon\\8.13\\com.timeground.repeatreminder.app-mergeReleaseResources-30:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\athul\\.gradle\\daemon\\8.13\\com.timeground.repeatreminder.app-main-32:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "com.timeground.repeatreminder.app-mergeReleaseResources-30:/layout/activity_main.xml",
-        "source": "com.timeground.repeatreminder.app-main-32:/layout/activity_main.xml"
+        "merged": "com.timeground.repeatreminder.app-mergeReleaseResources-34:/layout/activity_main.xml",
+        "source": "com.timeground.repeatreminder.app-main-37:/layout/activity_main.xml"
     }
 ]

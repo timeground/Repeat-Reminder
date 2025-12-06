@@ -65,10 +65,23 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.activity:activity:1.8.0@aar"
-      jars="C:\Users\athul\.gradle\caches\8.13\transforms\810098fde895105cd4b095a2445fdef9\transformed\jetified-activity-1.8.0\jars\classes.jar"
-      resolved="androidx.activity:activity:1.8.0"
-      folder="C:\Users\athul\.gradle\caches\8.13\transforms\810098fde895105cd4b095a2445fdef9\transformed\jetified-activity-1.8.0"
+      name="androidx.activity:activity:1.9.0@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\bf1ed49de74191097a422f6a60c7d93f\transformed\jetified-activity-1.9.0\jars\classes.jar"
+      resolved="androidx.activity:activity:1.9.0"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\bf1ed49de74191097a422f6a60c7d93f\transformed\jetified-activity-1.9.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.activity:activity-ktx:1.9.0@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\03f4c802ba5127b31b07e15188822a6b\transformed\jetified-activity-ktx-1.9.0\jars\classes.jar"
+      resolved="androidx.activity:activity-ktx:1.9.0"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\03f4c802ba5127b31b07e15188822a6b\transformed\jetified-activity-ktx-1.9.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -234,10 +247,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.core:core:1.12.0@aar"
-      jars="C:\Users\athul\.gradle\caches\8.13\transforms\396e032aae96a19f5d95643c90b995c4\transformed\core-1.12.0\jars\classes.jar"
-      resolved="androidx.core:core:1.12.0"
-      folder="C:\Users\athul\.gradle\caches\8.13\transforms\396e032aae96a19f5d95643c90b995c4\transformed\core-1.12.0"
+      name="androidx.core:core:1.13.0@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\542c0b8ba874054b06695b75f3006805\transformed\core-1.13.0\jars\classes.jar"
+      resolved="androidx.core:core:1.13.0"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\542c0b8ba874054b06695b75f3006805\transformed\core-1.13.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -247,10 +260,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-livedata:2.6.1@aar"
-      jars="C:\Users\athul\.gradle\caches\8.13\transforms\135d97809b631c36bbb14dd25c99be2b\transformed\lifecycle-livedata-2.6.1\jars\classes.jar"
-      resolved="androidx.lifecycle:lifecycle-livedata:2.6.1"
-      folder="C:\Users\athul\.gradle\caches\8.13\transforms\135d97809b631c36bbb14dd25c99be2b\transformed\lifecycle-livedata-2.6.1"
+      name="androidx.lifecycle:lifecycle-livedata:2.6.2@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\181fb27190e6aac0717601e7da1e9387\transformed\lifecycle-livedata-2.6.2\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-livedata:2.6.2"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\181fb27190e6aac0717601e7da1e9387\transformed\lifecycle-livedata-2.6.2"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -260,14 +273,14 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-common:2.6.1@jar"
-      jars="C:\Users\athul\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common\2.6.1\10f354fdb64868baecd67128560c5a0d6312c495\lifecycle-common-2.6.1.jar"
-      resolved="androidx.lifecycle:lifecycle-common:2.6.1"/>
+      name="androidx.lifecycle:lifecycle-common:2.6.2@jar"
+      jars="C:\Users\athul\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common\2.6.2\10f354fdb64868baecd67128560c5a0d6312c495\lifecycle-common-2.6.2.jar"
+      resolved="androidx.lifecycle:lifecycle-common:2.6.2"/>
   <library
-      name="androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar"
-      jars="C:\Users\athul\.gradle\caches\8.13\transforms\25607b636f9eb4922c5b1608747796b8\transformed\lifecycle-livedata-core-2.6.1\jars\classes.jar"
-      resolved="androidx.lifecycle:lifecycle-livedata-core:2.6.1"
-      folder="C:\Users\athul\.gradle\caches\8.13\transforms\25607b636f9eb4922c5b1608747796b8\transformed\lifecycle-livedata-core-2.6.1"
+      name="androidx.lifecycle:lifecycle-livedata-core:2.6.2@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\608e903a2ea2f85dcc96734bec05dff1\transformed\lifecycle-livedata-core-2.6.2\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-livedata-core:2.6.2"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\608e903a2ea2f85dcc96734bec05dff1\transformed\lifecycle-livedata-core-2.6.2"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -277,10 +290,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar"
-      jars="C:\Users\athul\.gradle\caches\8.13\transforms\9f2e48a7bd3c339f1a8b7d36de94452c\transformed\lifecycle-viewmodel-2.6.1\jars\classes.jar"
-      resolved="androidx.lifecycle:lifecycle-viewmodel:2.6.1"
-      folder="C:\Users\athul\.gradle\caches\8.13\transforms\9f2e48a7bd3c339f1a8b7d36de94452c\transformed\lifecycle-viewmodel-2.6.1"
+      name="androidx.lifecycle:lifecycle-viewmodel:2.6.2@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\2281bdf73a3e868492d409bf1bc63aec\transformed\lifecycle-viewmodel-2.6.2\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-viewmodel:2.6.2"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\2281bdf73a3e868492d409bf1bc63aec\transformed\lifecycle-viewmodel-2.6.2"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -290,10 +303,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-runtime:2.6.1@aar"
-      jars="C:\Users\athul\.gradle\caches\8.13\transforms\c8ebae872036f23d2fcd066a4cde2ba5\transformed\lifecycle-runtime-2.6.1\jars\classes.jar"
-      resolved="androidx.lifecycle:lifecycle-runtime:2.6.1"
-      folder="C:\Users\athul\.gradle\caches\8.13\transforms\c8ebae872036f23d2fcd066a4cde2ba5\transformed\lifecycle-runtime-2.6.1"
+      name="androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\ebfee8bf389b4bf59b903c804884c05e\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\ebfee8bf389b4bf59b903c804884c05e\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -303,10 +316,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar"
-      jars="C:\Users\athul\.gradle\caches\8.13\transforms\2bf63b518c4268944b4ecc5cf9508e0e\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\jars\classes.jar"
-      resolved="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1"
-      folder="C:\Users\athul\.gradle\caches\8.13\transforms\2bf63b518c4268944b4ecc5cf9508e0e\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1"
+      name="androidx.lifecycle:lifecycle-runtime-ktx:2.6.2@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\8249c676ece3822a65fe0d539831e484\transformed\jetified-lifecycle-runtime-ktx-2.6.2\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-runtime-ktx:2.6.2"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\8249c676ece3822a65fe0d539831e484\transformed\jetified-lifecycle-runtime-ktx-2.6.2"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -316,10 +329,49 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.core:core-ktx:1.12.0@aar"
-      jars="C:\Users\athul\.gradle\caches\8.13\transforms\38987bddee469cf98fd178d41c4b0238\transformed\jetified-core-ktx-1.12.0\jars\classes.jar"
-      resolved="androidx.core:core-ktx:1.12.0"
-      folder="C:\Users\athul\.gradle\caches\8.13\transforms\38987bddee469cf98fd178d41c4b0238\transformed\jetified-core-ktx-1.12.0"
+      name="androidx.lifecycle:lifecycle-runtime:2.6.2@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\99779e41d4f1d01e9c65a3374c4ac8ee\transformed\lifecycle-runtime-2.6.2\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-runtime:2.6.2"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\99779e41d4f1d01e9c65a3374c4ac8ee\transformed\lifecycle-runtime-2.6.2"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\63e8051bce0d6d4c62d5f633d54206b4\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\63e8051bce0d6d4c62d5f633d54206b4\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.core:core-ktx:1.13.0@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\7c5017d6a04158da79f879846ad9959a\transformed\jetified-core-ktx-1.13.0\jars\classes.jar"
+      resolved="androidx.core:core-ktx:1.13.0"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\7c5017d6a04158da79f879846ad9959a\transformed\jetified-core-ktx-1.13.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.savedstate:savedstate-ktx:1.2.1@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\55527d78e4ee59795f739c63a319237a\transformed\jetified-savedstate-ktx-1.2.1\jars\classes.jar"
+      resolved="androidx.savedstate:savedstate-ktx:1.2.1"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\55527d78e4ee59795f739c63a319237a\transformed\jetified-savedstate-ktx-1.2.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -342,10 +394,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.annotation:annotation-experimental:1.3.0@aar"
-      jars="C:\Users\athul\.gradle\caches\8.13\transforms\0708173196cbc47948623fd7539ca3a5\transformed\jetified-annotation-experimental-1.3.0\jars\classes.jar"
-      resolved="androidx.annotation:annotation-experimental:1.3.0"
-      folder="C:\Users\athul\.gradle\caches\8.13\transforms\0708173196cbc47948623fd7539ca3a5\transformed\jetified-annotation-experimental-1.3.0"
+      name="androidx.annotation:annotation-experimental:1.4.0@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\45030f7deadbfafd1686dc7445eb7c61\transformed\jetified-annotation-experimental-1.4.0\jars\classes.jar"
+      resolved="androidx.annotation:annotation-experimental:1.4.0"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\45030f7deadbfafd1686dc7445eb7c61\transformed\jetified-annotation-experimental-1.4.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -538,10 +590,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-process:2.6.1@aar"
-      jars="C:\Users\athul\.gradle\caches\8.13\transforms\900d067f2ad03cba937a265d0db06680\transformed\jetified-lifecycle-process-2.6.1\jars\classes.jar"
-      resolved="androidx.lifecycle:lifecycle-process:2.6.1"
-      folder="C:\Users\athul\.gradle\caches\8.13\transforms\900d067f2ad03cba937a265d0db06680\transformed\jetified-lifecycle-process-2.6.1"
+      name="androidx.lifecycle:lifecycle-process:2.6.2@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\3f1c3621b7c3afd291bff93f894e7e95\transformed\jetified-lifecycle-process-2.6.2\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-process:2.6.2"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\3f1c3621b7c3afd291bff93f894e7e95\transformed\jetified-lifecycle-process-2.6.2"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -551,10 +603,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.profileinstaller:profileinstaller:1.3.0@aar"
-      jars="C:\Users\athul\.gradle\caches\8.13\transforms\b3a2eb4d27ead99c9db7b41ac24478d8\transformed\jetified-profileinstaller-1.3.0\jars\classes.jar"
-      resolved="androidx.profileinstaller:profileinstaller:1.3.0"
-      folder="C:\Users\athul\.gradle\caches\8.13\transforms\b3a2eb4d27ead99c9db7b41ac24478d8\transformed\jetified-profileinstaller-1.3.0"
+      name="androidx.profileinstaller:profileinstaller:1.3.1@aar"
+      jars="C:\Users\athul\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\jars\classes.jar"
+      resolved="androidx.profileinstaller:profileinstaller:1.3.1"
+      folder="C:\Users\athul\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
